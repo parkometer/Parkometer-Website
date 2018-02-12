@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="196px" height="84px" viewBox="0 0 196 84" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>play store</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M4,4.0065556 C4,1.79379604 5.786708,0 7.998442,0 L172.001558,0 C174.209837,0 176,1.79568082 176,4.0065556 L176,55.9934444 C176,58.206204 174.213292,60 172.001558,60 L7.998442,60 C5.79016346,60 4,58.2043192 4,55.9934444 L4,4.0065556 Z" id="path-1"></path>
+        <filter x="-11.6%" y="-26.7%" width="123.3%" height="166.7%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="4" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="6" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <linearGradient x1="100%" y1="50%" x2="61.0874018%" y2="50%" id="linearGradient-3">
+            <stop stop-color="#FBDA09" offset="0%"></stop>
+            <stop stop-color="#FFBC00" offset="100%"></stop>
+        </linearGradient>
+        <path d="M20.2102133,10.6381055 C21.4369042,11.3617511 21.4376595,12.534584 20.2102133,13.2586963 L2.84530482,23.5028462 C1.61861391,24.2265128 0.624184442,23.6237903 0.624184442,22.1626039 L0.624184442,1.73453339 C0.624184442,0.27067134 1.61785859,-0.32983818 2.84530482,0.394253053" id="path-4"></path>
+        <linearGradient x1="0%" y1="58.4755255%" x2="69.3064856%" y2="39.0830098%" id="linearGradient-6">
+            <stop stop-color="#01E2FF" offset="0%"></stop>
+            <stop stop-color="#01C4FF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="20.2810876%" y1="20.1019903%" x2="83.820166%" y2="83.6214476%" id="linearGradient-7">
+            <stop stop-color="#28D781" offset="0%"></stop>
+            <stop stop-color="#02F076" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="74.4881466%" y1="17.4301299%" x2="10.1079427%" y2="91.1838038%" id="linearGradient-8">
+            <stop stop-color="#F2414E" offset="0%"></stop>
+            <stop stop-color="#E02554" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Full-page-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-601.000000, -4363.000000)" opacity="0.504925272">
+        <g id="download-the-app" transform="translate(428.000000, 4225.000000)">
+            <g id="play-store" transform="translate(181.000000, 146.000000)">
+                <g id="shadow" fill="black" fill-opacity="1">
+                    <use filter="url(#filter-2)" xlink:href="#path-1"></use>
+                </g>
+                <rect id="Rectangle" fill="#FFFFFF" x="0" y="0" width="180" height="60" rx="2"></rect>
+                <text id="Google-Play" font-family="Roboto, Verdana" font-size="17" font-weight="400" fill="#393C41">
+                    <tspan x="55.5" y="37">Google Play</tspan>
+                </text>
+                <g id="g-play" transform="translate(25.000000, 18.000000)">
+                    <mask id="mask-5" fill="white">
+                        <use xlink:href="#path-4"></use>
+                    </mask>
+                    <use id="yellow" fill="url(#linearGradient-3)" xlink:href="#path-4"></use>
+                    <polygon id="blue" fill="url(#linearGradient-6)" mask="url(#mask-5)" points="0.624184442 0.192467731 12.0003662 11.986145 0.624184442 23.9060417"></polygon>
+                    <polygon id="green" fill="url(#linearGradient-7)" mask="url(#mask-5)" points="-1.76721191 -2.29992676 12.0077515 12.0021973 15.9885379 7.76857368"></polygon>
+                    <polygon id="red" fill="url(#linearGradient-8)" mask="url(#mask-5)" points="12.0109863 11.9938965 18.1150506 18.2567607 -0.397180007 24.7553285"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

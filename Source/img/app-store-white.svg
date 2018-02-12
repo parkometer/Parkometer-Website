@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="196px" height="84px" viewBox="0 0 196 84" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>app store</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M4,4.0065556 C4,1.79379604 5.786708,0 7.998442,0 L172.001558,0 C174.209837,0 176,1.79568082 176,4.0065556 L176,55.9934444 C176,58.206204 174.213292,60 172.001558,60 L7.998442,60 C5.79016346,60 4,58.2043192 4,55.9934444 L4,4.0065556 Z" id="path-1"></path>
+        <filter x="-11.6%" y="-26.7%" width="123.3%" height="166.7%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="4" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="6" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Full-page-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-811.000000, -4363.000000)">
+        <g id="download-the-app" transform="translate(428.000000, 4225.000000)">
+            <g id="app-store" transform="translate(391.000000, 146.000000)">
+                <g id="shadow" fill="black" fill-opacity="1">
+                    <use filter="url(#filter-2)" xlink:href="#path-1"></use>
+                </g>
+                <rect id="Rectangle" fill="#FFFFFF" x="0" y="0" width="180" height="60" rx="2"></rect>
+                <text id="App-Store" font-family="Roboto, Verdana" font-size="17" font-weight="400" fill="#393C41">
+                    <tspan x="61" y="37">App Store</tspan>
+                </text>
+                <path d="M45.1093073,20.834681 C45.9697353,19.8195475 46.5471926,18.40897 46.3892556,17 C45.1545497,17.0474211 43.6533251,17.8069628 42.7698647,18.8180776 C41.976889,19.719079 41.2818015,21.1537689 41.4660614,22.5313927 C42.8447203,22.63588 44.2529923,21.8482071 45.1093073,20.834681 M51.5,34.6044892 C51.4695642,34.6864715 50.9825916,36.3269209 49.7972411,38.0155951 C48.7764084,39.47922 47.7119784,40.9380223 46.0371875,40.9669573 C44.3953002,40.9983034 43.8663756,40.0153198 41.9859375,40.0153198 C40.106322,40.0153198 39.5189936,40.9380223 37.9626555,40.9983034 C36.3454459,41.060192 35.1189659,39.4173314 34.0849717,37.9609403 C31.9733862,34.981447 30.3644024,29.5392703 32.5253433,25.8693576 C33.6029347,24.0448499 35.5220344,22.8922755 37.6081197,22.8609294 C39.1973614,22.8352094 40.6928279,23.9033903 41.6626601,23.9033903 C42.6333149,23.9033903 44.4504137,22.6117675 46.3645779,22.801452 C47.1624891,22.8368169 49.4114469,23.1173249 50.8575581,25.1821532 C50.7382827,25.256098 48.1734507,26.7124891 48.2014188,29.7498522 C48.2334997,33.381185 51.4621609,34.5900218 51.5,34.6044892" id="apple_logo" fill="#191C20"></path>
+            </g>
+        </g>
+    </g>
+</svg>

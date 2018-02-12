@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="34px" height="43px" viewBox="0 0 34 43" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>location</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Full-page-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-400.000000, -1215.000000)">
+        <g id="features" transform="translate(249.500000, 1181.000000)" fill="#FFFFFF">
+            <g id="chat">
+                <g id="icon" transform="translate(111.000000, 0.000000)">
+                    <path d="M56.5009868,34 C47.3870582,34 40,41.437913 40,50.6125976 C40,63.2806969 53.3551223,77 56.5542731,77 C59.7534238,77 73,63.2806969 73,50.6125976 C73,41.437913 65.6129418,34 56.5009868,34 L56.5009868,34 Z M56.5009868,58.3128148 C52.3111058,58.3128148 48.9145984,54.8929248 48.9145984,50.6741994 C48.9145984,46.4554739 52.3111058,43.0355839 56.5009868,43.0355839 C60.6908678,43.0355839 64.0873752,46.4554739 64.0873752,50.6741994 C64.0873752,54.8929248 60.6908678,58.3128148 56.5009868,58.3128148 L56.5009868,58.3128148 Z" id="location"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

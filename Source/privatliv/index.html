@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="da">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Privacy by Design</title>
+    <link rel="icon" type="image/png" href="../img/icon.png">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
+
+    <link rel="manifest" href="../site.webmanifest">
+    <link rel="apple-touch-icon" href="../icon.png">
+
+    <script>
+        window.ga=function(){ga.q.push(arguments)};ga.q=[];ga.l=+new Date;
+        ga('create','UA-79880947-2','auto');ga('send', 'pageview', 'Privatliv');
+    </script>
+    <script src="https://www.google-analytics.com/analytics.js" async defer></script>
+
+
+    <!-- Place favicon.ico in the root directory -->
+
+    <style>
+
+        #header {
+            text-align: center;
+            max-width: 600px;
+            margin: 2vh auto 10vh auto;
+            height: 10vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        #header img {
+            transform: translateY(10px);
+        }
+
+        h1, h2, p, a {
+            font-family: 'Roboto', sans-serif;
+            color: inherit;
+            font-size: 48px;
+            font-weight: 200;
+            line-height: 1.25;
+            margin: 0;
+            text-rendering: optimizeLegibility;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        h2 {
+            font-size: 24px;
+            letter-spacing: 0.2px;
+
+        }
+
+        p {
+
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 1.75;
+            color: #6B717B;
+            margin-top: 50px;
+        }
+
+        p span {
+            color: #000;
+        }
+
+        p:last-of-type {
+            margin-bottom: 100px;
+        }
+
+        a {
+            font-size: inherit;
+            text-decoration: none;
+            margin-left: 20px;
+            font-weight: 500;
+        }
+
+        #main {
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        #back-button img {
+            transform: rotateZ(90deg) translateX(-1px);
+        }
+
+        #back-button {
+            position: fixed;
+            left: 5vh;
+            top: 5vh;
+            user-select: none;
+        }
+
+        #back-button:hover {
+            color: #323232;
+        }
+        #back-button:active {
+            color: #000;
+        }
+
+        @media screen and (max-width: 699px) {
+            #main {
+                width: 95%;
+                margin-left: auto;
+            }
+            p {
+                font-size: 16px;
+            }
+            h1 {
+                font-size: 30px;
+            }
+
+            h2 {
+                font-size: 20px;
+            }
+
+            #back-button {
+                display: none;
+            }
+        }
+
+
+    </style>
+</head>
+<body>
+<a onclick="ga('send', 'event', 'Privacy', 'BackButton');" id="back-button" href="../">
+    <img src="../img/arrow.svg">
+    TILBAGE
+</a>
+<div id="header">
+    <img id="logo" src="../img/logo-full.svg">
+</div>
+<div id="main">
+
+
+    <h1>Parkometers datapolitik</h1>
+
+    <h2>De oplysninger vi modtager og hvordan vi bruger dem</h2>
+    <p>
+
+
+        Hos Parkometer sætter vi en ære i udelukkende at indsamle de personoplysninger om Kunderne, som er absolut nødvendige for at levere den optimale serviceydelse.
+        <br><br>
+        Vi opererer ud fra devisen om <span>Privacy by Design</span>, hvilket er på linje med Persondataforordningen, der træder i kraft på 25. maj 2018.
+        <br><br>
+        Derfor får vi udelukkende behov for oplysninger om din nummerplade, som du selv taster ind i app’en, når du registrerer din parkering.
+        <br><br>
+        Desuden modtager vi din lokalitet via telefonens GPS, når app’en viser parkeringspladser i nærheden af din position.
+        <br><br>
+        Der er tale om to personoplysninger, som ikke er følsomme. Ifølge gældende og kommende lovgivning er vi dog forpligtet til at indhente dit udtrykkelige samtykke til indsamling og videregivelse.
+        <br><br>
+
+        Transaktionsoplysninger fra MobilePay og GPS positionen bliver ikke videregivet, men forbliver internt hos Parkometer, indtil opbevaringen ikke længere kan anses som nødvendig til sikring af parternes retsforhold (herunder til dokumentation for vores serviceydelse).
+        <br><br>
+        Oplysningen om din nummerplade vil blive behandlet af Parkometer som led i registrering af din parkerings gyldighed og længde. Oplysningen vil blive videregivet til Parkometers samarbejdspartnere, som er Parkeringsudbyderen (i næsten alle tilfælde den pågældende kommune eller private udbyder) samt dennes valgte Parkeringsselskab.
+        <br><br>
+        Parkeringsvagterne vil med hjælp af en håndterminal scanne nummerpladerne med henblik på en konstatering af, om parkeringen af et køretøj er gyldig. Oplysningen vil blive undersøgt og bekræftet i Parkometers system, hvortil parkeringsvagterne har adgang via en sikret forbindelse.
+        <br><br>
+        Når Kundens parkering er afsluttet, vil Parkometers samarbejdspartnere ikke længere have digital adgang til din nummerplade. Du kan altid stille os spørgsmål om alle forhold i den ydelse, som du modtager.
+    </p>
+
+</div>
+</body>
+</html>

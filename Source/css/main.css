@@ -1,0 +1,778 @@
+/*! HTML5 Boilerplate v6.0.1 | MIT License | https://html5boilerplate.com/ */
+
+/*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+    background-image: url("../img/map.png");
+    background-repeat: no-repeat;
+}
+
+h1, h2, h3, p, a {
+    font-family: 'Roboto', sans-serif;
+    color: inherit;
+    font-size: 48px;
+    font-weight: 200;
+    line-height: 1.25;
+    margin: 0;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+}
+
+h2 {
+    font-size: 24px;
+    letter-spacing: 0.2px;
+
+}
+
+h3 {
+    font-size: 24px;
+    letter-spacing: 0.2px;
+    text-align: center;
+    color: #393c41;
+}
+
+p {
+
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.75;
+    margin: 4% 0 6% 0;
+
+}
+
+a {
+    font-size: inherit;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: 500;
+}
+
+#wrapper {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#main, #footer {
+    background: rgba(74,144,226,0.5);
+    color: #fff;
+    font-size: 16px;
+}
+
+#footer-links {
+    float: right;
+}
+
+#footer-bottom {
+    width: 100%;
+    background: #4A90E2;
+    padding: 15vh auto 0 auto;
+}
+
+
+#footer-bottom img {
+    width: 170px;
+    height: 44px;
+}
+
+
+#footer-bottom-content {
+    max-width: 1200px;
+    margin: 0 auto 0 auto;
+    padding: 5vh 2vh 5vh 2vh;
+}
+
+#footer {
+    padding: 15vh 0 0 0;
+    background: #4A90E2;
+}
+
+#faq-m {
+    display: none;
+}
+
+.container, .content-container, #header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*flex-wrap: wrap;*/
+    padding-top: 2vh;
+}
+
+.content-container > div:first-of-type {
+    margin-right: 100px;
+}
+
+.container > div:first-of-type {
+    margin-right: 100px;
+}
+
+#footer .container > div:first-of-type {
+    margin-right: 0;
+    margin-bottom: 10vh;
+}
+
+#header {
+    height: 10vh;
+    width: 100%;
+    align-self: center;
+}
+
+
+#logo {
+    transform: translateY(10px);
+}
+
+.content {
+    width: 430px;
+}
+
+.content-container {
+    padding-top: 15vh;
+    background: #fff;
+    color: #6B717B;
+}
+
+.content-container h2 {
+    font-size: 36px;
+}
+
+#content-container--first .hero, #content-container--first .content  {
+    transform: translateY(10vh);
+}
+
+#content-container--second .hero, #content-container--second .content  {
+    transform: translateY(10vh);
+}
+
+#content-container--second {
+    background-color: #f7f8f9;
+}
+
+#content-container--third {
+    padding-bottom: 10vh;
+}
+
+
+#content-container--first .content h2 {
+    color: #4a90e2;
+}
+
+#content-container--second .content h2 {
+    color: #5a78ff;
+}
+
+#content-container--third .content h2 {
+    color: #cf3d3d;
+}
+
+
+
+img {
+    user-select: none;
+}
+
+.iphone {
+    height: 680px;
+    width: 358px;
+}
+
+.screen {
+    width: 273.2px;
+    height: 486.8px;
+    position: absolute;
+    margin-left: 43px;
+    margin-top: 77px;
+}
+
+.bubble {
+    width: 120px;
+    height: 120px;
+    border-radius: 100px;
+    background-image: linear-gradient(135deg, #00cdf5, #007ef1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+#bubble-2 {
+    background-image: linear-gradient(to bottom, #2fda75, #30ad63);
+}
+
+#bubble-3 {
+    background-image: linear-gradient(135deg, #ed5565, #d62839);
+}
+
+#location-icon {
+    background-image: url(../img/location.svg);
+    height: 43px;
+    width: 34px;
+}
+
+#flash-icon {
+    background-image: url(../img/flash.svg);
+    height: 43px;
+    width: 30px;
+}
+
+#clock-icon {
+    background-image: url(../img/clock.svg);
+    height: 39px;
+    width: 40px;
+}
+
+#app-store-footer {
+    cursor: pointer;
+}
+
+#app-store {
+    transform: translateX(-8px);
+    cursor: pointer;
+}
+
+#app-store:hover {
+    opacity: 0.88;
+}
+
+#app-store:active {
+    opacity: 1;
+}
+
+#app-store-footer:hover {
+    opacity: 0.95;
+}
+
+#app-store-footer:active {
+    opacity: 1;
+}
+
+
+#arrow-button {
+    width: 46px;
+    height: 46px;
+    background-color: #f7f8f9;
+    border-radius: 100px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+    margin-right: auto;
+    margin-left: auto;
+    transform: translateY(23px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+#arrow-button:hover {
+    background-color: #fff;
+}
+
+#arrow-button:active {
+    background-color: #f7f8f9;
+}
+
+.arrow-img {
+    background-image: url(../img/arrow.svg);
+    height: 8px;
+    width: 12px;
+    transform: translateY(1px);
+}
+
+#usp-container {
+    padding: 15vh 0 15vh 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background: #fff;
+}
+
+.usp {
+    margin: 0 3vw 0 3vw;
+    width: 330px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 16px;
+    color: #6B717B;
+}
+
+.usp p {
+    font-size: 18px;
+}
+
+.divider {
+    width: 100%;
+    height: 1px;
+    background-color: #e4e7ec;
+    padding: 0 auto 0 auto;
+}
+
+.center-text {
+    text-align: center;
+}
+
+
+
+#popup-wrapper {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#popup {
+    max-width: 800px;
+    min-width: 320px;
+    max-height: 80vh;
+    background-color: #fff;
+}
+
+
+
+.no-wrap {
+    flex-wrap: nowrap;
+}
+
+.devices {
+    justify-content: flex-start;
+    max-width: 100vw;
+    display: none;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+    background-color: #f7f8f9;
+}
+
+.step {
+    text-align: center;
+    width: 25%;
+    margin: 0 12vw 0 5vw;
+    min-width: 300px;
+    min-height: 400px;
+    padding: 40px 0 20px 0
+}
+
+
+
+.inner {
+    position: relative;
+}
+
+/*
+ * Remove text-shadow in selection highlight:
+ * https://twitter.com/miketaylr/status/12228805301
+ *
+ * Vendor-prefixed and regular ::selection selectors cannot be combined:
+ * https://stackoverflow.com/a/16982510/7133471
+ *
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+/*
+ * Remove the gap between audio, canvas, iframes,
+ * images, videos and the bottom of their containers:
+ * https://github.com/h5bp/html5-boilerplate/issues/440
+ */
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+    resize: vertical;
+}
+
+/* ==========================================================================
+   Browser Upgrade Prompt
+   ========================================================================== */
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+
+
+
+.bounce {
+    -moz-animation: bounce 4s infinite;
+    -webkit-animation: bounce 4s infinite;
+    animation: bounce 4s infinite;
+    animation-delay: 2s;
+    animation-timing-function: ease-out;
+}
+
+@keyframes bounce {
+    0%, 20%, 100% {
+        -moz-transform: translateY(1px);
+        -ms-transform: translateY(1px);
+        -webkit-transform: translateY(1px);
+        transform: translateY(1px);
+    }
+    8% {
+        -moz-transform: translateY(3px);
+        -ms-transform: translateY(3px);
+        -webkit-transform: translateY(3px);
+        transform: translateY(3px);
+    }
+}
+
+
+
+
+.jiggle {
+    animation:jiggle .5s cubic-bezier(.36, .07, .19, .97) both;
+    transform:translate3d(0, 0, 0);
+    backface-visibility:hidden;
+    perspective:1000px
+}
+@-webkit-keyframes jiggle{
+    10%,90%{
+        transform:translate3d(-1px, 0, 0)
+    }
+    20%,80%{
+        transform:translate3d(2px, 0, 0)
+    }
+    30%,50%,70%{
+        transform:translate3d(-4px, 0, 0)
+    }
+    40%,60%{
+        transform:translate3d(4px, 0, 0)
+    }
+}
+@-moz-keyframes jiggle{
+    10%,90%{
+        transform:translate3d(-1px, 0, 0)
+    }
+    20%,80%{
+        transform:translate3d(2px, 0, 0)
+    }
+    30%,50%,70%{
+        transform:translate3d(-4px, 0, 0)
+    }
+    40%,60%{
+        transform:translate3d(4px, 0, 0)
+    }
+}
+@-ms-keyframes jiggle{
+    10%,90%{
+        transform:translate3d(-1px, 0, 0)
+    }
+    20%,80%{
+        transform:translate3d(2px, 0, 0)
+    }
+    30%,50%,70%{
+        transform:translate3d(-4px, 0, 0)
+    }
+    40%,60%{
+        transform:translate3d(4px, 0, 0)
+    }
+}
+@-o-keyframes jiggle{
+    10%,90%{
+        transform:translate3d(-1px, 0, 0)
+    }
+    20%,80%{
+        transform:translate3d(2px, 0, 0)
+    }
+    30%,50%,70%{
+        transform:translate3d(-4px, 0, 0)
+    }
+    40%,60%{
+        transform:translate3d(4px, 0, 0)
+    }
+}
+@keyframes jiggle{
+    10%,90%{
+        transform:translate3d(-1px, 0, 0)
+    }
+    20%,80%{
+        transform:translate3d(2px, 0, 0)
+    }
+    30%,50%,70%{
+        transform:translate3d(-4px, 0, 0)
+    }
+    40%,60%{
+        transform:translate3d(4px, 0, 0)
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+/*
+ * Hide visually and from screen readers
+ */
+
+.hidden {
+    display: none !important;
+}
+
+/*
+ * Hide only visually, but have it available for screen readers:
+ * https://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+ *
+ * 1. For long content, line feeds are not interpreted as spaces and small width
+ *    causes content to wrap 1 word per line:
+ *    https://medium.com/@jessebeach/beware-smushed-off-screen-accessible-text-5952a4c2cbfe
+ */
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    -webkit-clip-path: inset(50%);
+    clip-path: inset(50%);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+    white-space: nowrap; /* 1 */
+}
+
+/*
+ * Extends the .visuallyhidden class to allow the element
+ * to be focusable when navigated to via the keyboard:
+ * https://www.drupal.org/node/897638
+ */
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    -webkit-clip-path: none;
+    clip-path: none;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+    white-space: inherit;
+}
+
+/*
+ * Hide visually and from screen readers, but maintain layout
+ */
+
+.invisible {
+    visibility: hidden;
+}
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+    /* Style adjustments for viewports that meet the condition */
+}
+
+@media print,
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 1.25dppx),
+       (min-resolution: 120dpi) {
+    /* Style adjustments for high resolution devices */
+}
+
+@media screen and (max-width: 699px) {
+    html {
+        background-repeat: repeat;
+    }
+
+
+    h1, .content-container h2 {
+        font-size: 36px;
+        text-align: center;
+        line-height: 1.25;
+    }
+
+    .content-container h2 {
+        font-size: 30px;
+    }
+
+    p {
+        text-align: center;
+        font-size: 18px;
+    }
+
+    a {
+        font-size:14px;
+    }
+
+    .container {
+        padding-top: 15vh;
+    }
+
+    .container > div:first-of-type {
+        margin-right: 0;
+        text-align: center;
+    }
+    #app-store, #app-store-footer {
+        transform: translateX(0);
+        margin-top: 10vh;
+    }
+
+    .content-container > div:first-of-type {
+        margin-right: 0;
+    }
+
+    .content-container {
+        padding: 10vh 0 10vh 0;
+    }
+
+    .content {
+        padding: 0 20px 0 20px;
+        width: 350px;
+    }
+
+    #footer {
+        padding: 5vh 20px 0 20px;
+    }
+
+    #footer-bottom img {
+        margin-top: 60px;
+    }
+
+    #footer-bottom-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .hero, .divider {
+        display: none;
+    }
+
+    .usp {
+        margin: 5vh 1vw 0 1vw;
+    }
+
+    .faq {
+        margin-left: 0;
+    }
+    
+    #faq-dt {
+        display: none;
+    }
+
+    #faq-m {
+        display: inline-block;
+    }
+    
+    .devices {
+        display: flex;
+    }
+
+    #content-container--first .hero, #content-container--first .content {
+        transform: translateY(0);
+    }
+
+    #content-container--second .hero, #content-container--second .content {
+        transform: translateY(0);
+    }
+
+}
+
+
+
