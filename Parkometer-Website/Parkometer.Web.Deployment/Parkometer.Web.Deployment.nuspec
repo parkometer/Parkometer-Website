@@ -1,15 +1,14 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
     <metadata>
-        <id>Sample.Web</id>
-        <title>Your Web Application</title>
+        <id>Parkometer.Website</id>
+        <title>Parkometer</title>
         <version>1.0.0</version>
-        <authors>Your name</authors>
-        <owners>Your name</owners>
-        <licenseUrl>http://yourcompany.com</licenseUrl>
-        <projectUrl>http://yourcompany.com</projectUrl>
-        <requireLicenseAcceptance>false</requireLicenseAcceptance>
-        <description>A sample project</description>
-        <releaseNotes>This release contains the following changes...</releaseNotes>
+        <authors>Parkometer</authors>
+        <owners>Parkometer</owners>
+        <licenseUrl>http://parkometer.net</licenseUrl>
+        <projectUrl>http://parkometer.net</projectUrl>
+        <requireLicenseAcceptance>true</requireLicenseAcceptance>
+        <description>Parkometer.Website</description>
     </metadata>
     <files>
         <file src="..\..\Source\**\*.*" target="." />
