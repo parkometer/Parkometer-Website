@@ -149,11 +149,11 @@ a {
 }
 
 #content-container--first .hero, #content-container--first .content  {
-    transform: translateY(10vh);
+    transform: translateY(15vh);
 }
 
 #content-container--second .hero, #content-container--second .content  {
-    transform: translateY(10vh);
+    transform: translateY(15vh);
 }
 
 #content-container--second {
@@ -184,16 +184,16 @@ img {
 }
 
 .iphone {
-    height: 680px;
-    width: 358px;
+    height: 712px;
+    width: 455px;
 }
 
 .screen {
-    width: 273.2px;
-    height: 486.8px;
+    width: 273px;
+    height: 487px;
     position: absolute;
-    margin-left: 43px;
-    margin-top: 77px;
+    margin-left: 93px;
+    margin-top: 66px;
 }
 
 .bubble {
