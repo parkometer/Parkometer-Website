@@ -21,7 +21,7 @@ html {
 h1, h2, h3, p, a {
     font-family: 'Roboto', sans-serif;
     color: inherit;
-    font-size: 80px;
+    font-size: 64px;
     font-weight: 200;
     line-height: 1;
     margin: 0;
@@ -120,7 +120,7 @@ a {
 }
 
 .container > div:first-of-type {
-    margin-right: 100px;
+    margin-right: 50px;
 }
 
 #footer .container > div:first-of-type {
