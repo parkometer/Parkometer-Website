@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="19px" viewBox="0 0 40 39" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>clock</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Full-page-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-1172.000000, -1218.000000)">
+        <g id="features" transform="translate(249.500000, 1181.000000)" fill="#4A90E2">
+            <g id="groups" transform="translate(770.000000, 0.000000)">
+                <g id="icon" transform="translate(116.000000, 0.000000)">
+                    <path d="M75.84,56.422 C75.84,67.15 67.144,75.844 56.418,75.844 C45.696,75.844 37,67.15 37,56.422 C37,45.696 45.696,37 56.418,37 C67.144,37 75.84,45.696 75.84,56.422 Z M70.804,56.422 C70.804,64.368 64.364,70.808 56.418,70.808 C48.478,70.808 42.036,64.368 42.036,56.422 C42.036,48.476 48.478,42.04 56.418,42.04 C64.364,42.04 70.804,48.476 70.804,56.422 Z M54.774,57.168 C54.802,57.622 55.156,57.988 55.606,58.024 L66.594,58.024 C67.414,57.934 68.052,57.254 68.052,56.414 C68.052,55.548 67.38,54.84 66.528,54.782 L58.864,54.774 C58.426,54.732 58.078,54.384 58.054,53.938 L58.054,48.652 C58.054,47.746 57.32,47.012 56.414,47.012 C55.524,47.012 54.804,47.716 54.774,48.598 L54.774,57.168 Z" id="clock"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

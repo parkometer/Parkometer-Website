@@ -31,7 +31,12 @@
             display: flex;
             justify-content: center;
             align-items: center;
+        }
 
+        #read-speed {
+            display: flex;
+            align-items: center;
+            margin-top: 32px;
         }
 
         #header img {
@@ -64,7 +69,7 @@
             color: #6B717B;
         }
 
-        p:last-of-type {
+        p:last-of-type:not(#read-speed p) {
             margin-bottom: 100px;
         }
 
@@ -129,7 +134,7 @@
     TILBAGE
 </a>
 <div id="header">
-    <a href="../"><img id="logo" src="../img/logo-full.svg"></a>
+    <a href="../"><img id="logo" src="../img/logo-full.png" srcset="../img/logo-full@2x.png 2x, ../img/logo-full@3x.png 3x"></a>
 </div>
 <div id="main">
 
@@ -137,7 +142,10 @@
     <h1>Parkometers brugerbetingelser</h1>
 
     <h2>Her i en lang og formel udgave. Gældende fra 1. januar 2018.</h2>
-    <p style="font-size: 16px; margin-top: 20px; color: #4A90E2;">Læsetid: 10 minutter
+    <div id="read-speed">
+        <img style="transform: translateY(-1px)" src="../img/clock-blue.svg">
+        <p style="font-size: 16px; margin-left: 8px; color: #4A90E2;">Læsetid: 15 minutter</p>
+    </div>
         <br>
         <br>
         <br>
