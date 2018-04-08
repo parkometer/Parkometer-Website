@@ -227,24 +227,28 @@ img {
     cursor: pointer;
 }
 
-#app-store {
+.app-store {
     transform: translateX(-8px);
     cursor: pointer;
 }
 
-#app-store:hover {
+.app-store:hover {
     opacity: 0.88;
 }
 
-#app-store:active {
+.app-store:active {
     opacity: 1;
 }
 
-#app-store-footer:hover {
+.app-store-footer {
+    cursor: pointer;
+}
+
+.app-store-footer:hover {
     opacity: 0.95;
 }
 
-#app-store-footer:active {
+.app-store-footer:active {
     opacity: 1;
 }
 
