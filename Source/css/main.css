@@ -102,6 +102,7 @@ a {
 
 .content-container > div:first-of-type {
     margin-right: 100px;
+    margin-top: -100px;
 }
 
 .container > div:first-of-type {
