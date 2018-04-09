@@ -813,6 +813,10 @@ textarea {
     #screen-label-fourth {
         color: #CF3D3D;
     }
+
+    .app-store {
+        transform: translateX(0);
+    }
 }
 
 
