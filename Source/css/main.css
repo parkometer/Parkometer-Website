@@ -46,7 +46,7 @@ p {
 a {
     font-size: inherit;
     text-decoration: none;
-    margin-left: 20px;
+    margin: 10px;
     font-weight: 500;
 }
 
@@ -65,6 +65,11 @@ a {
 
 #footer-links {
     float: right;
+    display: inherit;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
 }
 
 #footer-bottom {
@@ -153,6 +158,7 @@ a {
 
 #content-container--third {
     padding-bottom: 10vh;
+    padding-top: 30vh;
 }
 
 
@@ -686,7 +692,7 @@ textarea {
     /* Style adjustments for high resolution devices */
 }
 
-@media screen and (max-width: 699px) {
+@media screen and (max-width: 1024px) {
     html {
         background-repeat: repeat;
     }
@@ -732,6 +738,11 @@ textarea {
         padding: 10vh 0 10vh 0;
     }
 
+    #content-container--second .content {
+        transform: translateY(0);
+        margin: 0;
+    }
+
     .content {
         padding: 0 20px 0 20px;
         width: 350px;
@@ -760,9 +771,6 @@ textarea {
         margin: 5vh 1vw 0 1vw;
     }
 
-    .faq {
-        margin-left: 0;
-    }
     
     #faq-dt {
         display: none;
@@ -780,8 +788,12 @@ textarea {
         transform: translateY(0);
     }
 
-    #content-container--second .hero, #content-container--second .content {
+    #content-container--second .hero {
         transform: translateY(0);
+    }
+
+    #content-container--third {
+        padding-top: 15vh;
     }
 
     #content-container--first .content h2, #content-container--second .content h2, #content-container--third .content h2 {
