@@ -43,7 +43,7 @@ p {
 
 }
 
-a {
+a:not(.app-store-links) {
     font-size: inherit;
     text-decoration: none;
     margin: 10px;
