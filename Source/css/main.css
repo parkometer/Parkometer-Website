@@ -50,6 +50,36 @@ a:not(.app-store-links) {
     font-weight: 500;
 }
 
+.flex-center {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    height: 46px;
+    padding: 0 16px;
+    border-radius: 2px;
+    background-color: transparent;
+    border: solid 2px #66435a;
+    color: #66435a;
+    font-family: klavika-normal, sans-serif;
+    font-size: 18px;
+    letter-spacing: 1.5px;
+    text-align: center;
+    outline: none;
+    cursor: pointer;
+}
+
+.primary {
+    border: none;
+    color: white;
+    margin: 0 0 0 8px;
+    background: #1CAF5E;
+    box-shadow: 0 1px 4px 0 rgba(0,0,0,0.25);
+    border-radius: 2px;
+    font-weight: bold;
+    letter-spacing: 0;
+}
 
 #wrapper {
     width: 100%;
@@ -79,7 +109,17 @@ a:not(.app-store-links) {
 }
 
 
+.operator {
+    width: 100%;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    background-color: #EDEFEE;
+    align-items: center;
+}
 
+.operator h2 {
+    margin-left: 8px;
+}
 
 
 #footer-bottom-content {

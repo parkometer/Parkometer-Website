@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="da">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Tilbyd parkering via Parkometer</title>
+    <link rel="icon" type="image/png" href="../img/icon.png">
+    <meta name="description" content="Administrerer du parkeringspladser?">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
+
+    <link rel="manifest" href="../site.webmanifest">
+    <link rel="apple-touch-icon" href="../icon.png">
+    <script>
+        window.ga=function(){ga.q.push(arguments)};ga.q=[];ga.l=+new Date;
+        ga('create','UA-79880947-2','auto');ga('send', 'pageview', 'FAQ');
+    </script>
+    <script src="https://www.google-analytics.com/analytics.js" async defer></script>
+
+
+    <!-- Place favicon.ico in the root directory -->
+
+    <style>
+
+        #header {
+            text-align: center;
+            max-width: 600px;
+            margin: 2vh auto 10vh auto;
+            height: 10vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        #header img {
+            transform: translateY(10px);
+        }
+
+        .flex-center {
+            display: flex;
+            align-content: center;
+        }
+
+        .profile {
+            border-radius: 500px;
+            height: 120px;
+        }
+
+        h1, h2, h3, p, a {
+            font-family: 'Roboto', sans-serif;
+            color: inherit;
+            font-size: 48px;
+            font-weight: 200;
+            line-height: 1.25;
+            margin: 10px;
+            text-rendering: optimizeLegibility;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        h2 {
+            margin-top: 100px;
+            font-size: 24px;
+            letter-spacing: 0.2px;
+
+        }
+
+        h3 {
+            font-size: 24px;
+            letter-spacing: 0.2px;
+            text-align: center;
+            color: #393c41;
+        }
+
+        p {
+
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 1.75;
+            color: #6B717B;
+        }
+
+
+        a {
+            font-size: inherit;
+            font-weight: 500;
+            margin: 0;
+            text-decoration: none;
+
+        }
+
+        .signature a {
+            text-decoration: underline;
+        }
+
+        #main {
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        #back-button img {
+            transform: rotateZ(90deg) translateX(-1px);
+        }
+
+        #back-button {
+            position: fixed;
+            left: 5vh;
+            top: 5vh;
+            user-select: none;
+        }
+
+        #back-button:hover {
+            color: #323232;
+        }
+        #back-button:active {
+            color: #000;
+        }
+
+        @media screen and (max-width: 699px) {
+            #main {
+                width: 95%;
+                margin-left: auto;
+            }
+            p {
+                font-size: 16px;
+            }
+            h1 {
+                font-size: 30px;
+            }
+
+            h2 {
+                font-size: 20px;
+            }
+
+            #back-button {
+                display: none;
+            }
+        }
+
+
+    </style>
+</head>
+<body>
+<a onclick="ga('send', 'event', 'Operator', 'BackButton');" id="back-button" href="../">
+    <img src="../img/arrow.svg">
+    TILBAGE
+</a>
+<div id="header">
+    <a href="../"><img id="logo" src="../img/logo-full.png" srcset="../img/logo-full@2x.png 2x, ../img/logo-full@3x.png 3x"></a>
+</div>
+<div id="main">
+
+
+    <h1>Administrerer du parkeringspladser?</h1>
+
+    <p>Passionen i Parkometer er design. Vi er besat af det enkle og intuitive. Vores elektroniske p-billet har ingen unødige oplysninger som: login, email, telefonnummer, kreditkort, abonnementer, nyhedsbreve eller guides. <strong> Det handler bare om parkering. </strong> <br><br>Vi kommer meget gerne forbi til et uformelt møde for at høre, hvordan I arbejder med parkering. <br> <br> Jeg ser frem til at høre fra jer. <br><br></p>
+
+
+    <div class="flex-center signature">
+    <img class="profile" src="../img/jens-profile.jpg">
+
+        <p><strong>Jens Aavild </strong><br>
+    Tlf. 2255 5522  <br>
+    <a href="mailto:jens@parkometer.dk">jens@parkometer.dk </a></p>
+    </div>
+
+</div>
+</body>
+</html>
