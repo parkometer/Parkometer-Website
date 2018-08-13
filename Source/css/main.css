@@ -81,6 +81,10 @@ button {
     letter-spacing: 0;
 }
 
+.primary:hover {
+    background: #4FB97A;
+}
+
 #wrapper {
     width: 100%;
     margin-left: auto;
