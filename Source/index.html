@@ -42,7 +42,7 @@
                         <img class="iphone" src="img/iphone.png" srcset="img/iphone@2x.png 2x, img/iphone@3x.png 3x">
                     </div>
                 </div>
-                <div id="arrow-button"><div id="arrow-button-icon" class="arrow-img bounce"></div></div>
+                <div onclick="document.querySelector('#usp-container').scrollIntoView({ behavior: 'smooth' });" id="arrow-button"><div id="arrow-button-icon" class="arrow-img bounce"></div></div>
             </div>
             <div id="usp-container">
                 <div class="usp">
@@ -169,15 +169,5 @@
 
         </div>
 
-        <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.2.1.min.js"><\/script>')</script>
-        <script>
-        $("#arrow-button").click(function(){
-            $("#arrow-button-icon").removeClass("bounce");
-            $('html, body').animate({
-                scrollTop: $("#usp-container").offset().top
-            }, 800);
-        });
-        </script>
     </body>
 </html>
