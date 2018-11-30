@@ -117,7 +117,7 @@ button {
     width: 100%;
     padding-bottom: 20px;
     padding-top: 20px;
-    background-color: #EDEFEE;
+    background-color: #f7f8f9;
     align-items: center;
 }
 
@@ -189,8 +189,12 @@ button {
     font-size: 36px;
 }
 
-#content-container--first .hero, #content-container--first .content  {
+#content-container--first .hero  {
     transform: translateY(15vh);
+}
+
+#content-container--first .content {
+    transform: translateY(8vh);
 }
 
 #content-container--second .hero, #content-container--second .content  {
@@ -816,7 +820,7 @@ textarea {
         margin: 5vh 1vw 0 1vw;
     }
 
-    
+
     #faq-dt, #operator-block {
         display: none;
     }
@@ -824,7 +828,7 @@ textarea {
     #faq-m, #operator-link {
         display: inline-block;
     }
-    
+
     .devices {
         display: flex;
     }
