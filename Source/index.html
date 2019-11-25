@@ -16,16 +16,25 @@
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
 
-        <script>
-            window.ga=function(){ga.q.push(arguments)};ga.q=[];ga.l=+new Date;
-            ga('create','UA-79880947-2','auto');ga('send', 'pageview', 'Home');
-        </script>
-        <script src="https://www.google-analytics.com/analytics.js" async defer></script>
+
 
     </head>
     <body>
 
-        <div id="wrapper">
+    <div class="modal hidden">
+        <div class="overlay" onclick="toggleModal()"></div>
+        <div class="content">
+            <h2>Dig og dine data</h2>
+            <p>Vi anvender cookies til at se, hvor mange der besøger parkometer.dk. Ingen personlige oplysninger gemmes i disse cookies. <br><br>Vi bruger Google Analytics til at indsamle statistik på hjemmesiden. Cookies fra denne udbyder giver mulighed for at se, hvor trafik til hjemmesiden kommer fra, hvor lang tid en bruger i gennemsnit opholder sig på hjemmesiden, o.lign. Disse informationer bruger vi til at forbedre din brugeroplevelse såvel som at sikre, at hjemmesiden fungerer som den skal. Cookies er små tekstfiler (typisk lavet af bogstaver og tal), som placeres i hukommelsen på din browser eller enhed, når du besøger en hjemmeside. Mere information om cookies og lignende teknologier kan findes <a target="_blank" href="http://www.allaboutcookies.org">her</a>. Når du trykker OK nedenfor, giver du os lov til at bruge Google Analytics til at måle hvordan du bruger hjemmesiden.</p>
+            <div class="flex">
+                <button class="primary" onclick="acceptConsent()">OK</button>
+                <button class="link" onclick="denyConsent()">Afvis</button>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="wrapper">
             <div id="main">
                 <div id="header">
                     <img id="logo" src="img/logo.svg">
@@ -42,7 +51,7 @@
                         <img class="iphone" src="img/iphone.png" srcset="img/iphone@2x.png 2x, img/iphone@3x.png 3x">
                     </div>
                 </div>
-                <div onclick="document.querySelector('#usp-container').scrollIntoView({ behavior: 'smooth' });" id="arrow-button"><div id="arrow-button-icon" class="arrow-img bounce"></div></div>
+                <div onclick="document.querySelector('#usp-container').scrollIntoView({ behavior: 'smooth' })" id="arrow-button"><div id="arrow-button-icon" class="arrow-img bounce"></div></div>
             </div>
             <div id="usp-container">
                 <div class="usp">
@@ -133,8 +142,8 @@
                     <img class="iphone" src="img/iphone.png" srcset="img/iphone@2x.png 2x, img/iphone@3x.png 3x">
                 </div>
                 <div class="content">
-                    <h2>Kommer til hele landet</h2>
-                    <p>Lige nu tester vi systemet i samarbejde med Aarhus Kommune. Parkometer bliver snart tilgængelig i resten af Danmark. <br><br> Du kan se parkeringspladser direkte i appen. Parkometer giver dig automatisk besked, når der tilføjes nye parkeringsudbydere.</p>
+                    <h2>Kommer til resten af landet</h2>
+                    <p>Parkometer kan bruges til at betale for parkering i <strong>Aarhus</strong> og <strong>København</strong> på alle kommunale pladser. Parkometer bliver snart tilgængelig i resten af Danmark. <br><br> Du kan se parkeringspladser direkte i appen. Parkometer giver dig automatisk besked, når der tilføjes nye parkeringsudbydere.</p>
                 </div>
             </div>
 
@@ -160,7 +169,8 @@
                             <a href="privatliv/">Privacy by Design</a>
                             <a href="brugerbetingelser/">Brugerbetingelser</a>
                             <a id="operator-link" href="parkeringsudbyder/">Tilbyd parkering via Parkometer</a>
-                            <a href="mailto:support@parkometer.dk">Har du brug for hjælp?</a>
+                            <a href="mailto:support@parkometer.dk">Support</a>
+                            <a href="javascript:toggleModal()">Administrér samtykke</a>
                         </div>
                         <img src="img/logo-long.png" srcset="img/logo-long@2x.png 2x, img/logo-long@3x.png 3x">
                     </div>
@@ -170,4 +180,17 @@
         </div>
 
     </body>
+
+    <script type="application/javascript" src="js/main.js"></script>
+
+    <script>
+
+        if (!getCookie('hc')) {
+            window.ga=function(){ga.q.push(arguments)};ga.q=[];ga.l=+new Date;
+            ga('create','UA-79880947-2','auto');ga('send', 'pageview', 'Home');
+        }
+
+    </script>
+    <script src="https://www.google-analytics.com/analytics.js" async defer></script>
+
 </html>
