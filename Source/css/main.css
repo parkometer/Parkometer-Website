@@ -4,6 +4,7 @@ html {
     line-height: 1.4;
     background-image: url("../img/map.png");
     background-repeat: no-repeat;
+    background-size: 100%;
 }
 
 h1, h2, h3, p, a {
@@ -24,7 +25,6 @@ h1 span {
 h2 {
     font-size: 24px;
     letter-spacing: 0.2px;
-
 }
 
 h3 {
@@ -35,13 +35,12 @@ h3 {
 }
 
 p {
-
     font-size: 20px;
     font-weight: 400;
     line-height: 1.75;
     margin: 4% 0 6% 0;
-
 }
+
 
 a:not(.app-store-links) {
     font-size: inherit;
@@ -77,6 +76,16 @@ button.link {
 
 button.link:hover {
     background-color: rgba(200,200,200,0.1)
+}
+
+.payment-icons {
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.payment-icons > img {
+    height: 40px;
+    margin-right: 16px;
 }
 
 .modal button {
@@ -803,7 +812,7 @@ textarea {
 
 @media screen and (max-width: 1024px) {
     html {
-        background-repeat: repeat;
+        background-size: auto;
     }
 
 
@@ -824,6 +833,12 @@ textarea {
 
     a {
         font-size:14px;
+    }
+
+    .payment-icons {
+        justify-content: center;
+        margin-top: 40px;
+        margin-bottom: 0;
     }
 
     .container {
@@ -938,6 +953,28 @@ textarea {
 
     .app-store {
         transform: translateX(0);
+    }
+
+
+    .modal {
+        align-items: flex-start;
+
+    }
+
+    .modal > .content {
+        height: 100%;
+        padding: 40px 24px 40px 24px;
+        overflow-y: auto;
+        border-radius: 0;
+    }
+
+    .modal h2 {
+        font-size: 24px;
+    }
+
+    .modal p {
+        font-size: 14px;
+        text-align: left;
     }
 }
 
