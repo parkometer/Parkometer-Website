@@ -4,7 +4,7 @@ html {
     line-height: 1.4;
     background-image: url("../img/map.png");
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
 }
 
 h1, h2, h3, p, a {
@@ -366,11 +366,11 @@ img {
 }
 
 .app-store-footer {
-    cursor: pointer;
+
 }
 
 .app-store-footer:hover {
-    opacity: 0.95;
+
 }
 
 .app-store-footer:active {
@@ -509,6 +509,27 @@ img {
     margin-left: 59px;
     margin-top: 50px;
 }
+
+
+.disclaimer {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.72);
+    z-index: 5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.disclaimer > div {
+    max-width: 400px;
+    padding: 24px;
+}
+
+
+
 
 /*
  * Remove text-shadow in selection highlight:
